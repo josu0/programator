@@ -1,0 +1,191 @@
+body{
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+	color: OrangeRed;
+	background: LightSlateGray;
+	
+}
+h1{
+	color: Lavender;
+	font-size: 3.5em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px black;
+
+}
+h2{
+	position: relative;
+	color: #555;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px black;
+}
+.login{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 20px 20px 20px;
+	width: 310px;
+	background: Lavender;
+	border-radius: 6px;
+}
+
+.erantzuna{
+	text-align: center;
+	margin: 20px 0 0;
+	font-weight: bold;
+	color: #555;
+}
+
+
+.aldaketak{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 20px 20px;
+	width: 560px;
+	background: Lavender;
+	border-radius: 6px;
+}
+p { margin: 20px 0 0; }
+
+p.submit{
+	text-align: center;
+}
+.botoia{
+	text-decoration: none;
+	font-style: bold;	
+	padding: 5px;
+	border-radius: 6px; 
+	background:#555;
+	color:white;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    width: 200px;
+    background-color: Lavender;
+    border-style: solid;
+	border-radius: 6px;
+	border-color: #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.erabiltzailea{
+	color: #555;
+	font-size: 1.5em;
+	font-weight: bold;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+#menua{
+	margin-top: 30px ;
+	float: left;
+    width:300px;
+
+}
+#zureAbisuak{
+
+	float: left;
+	padding: 20px 20px 20px;
+	width: 700px;
+}
+
+#atzeraBotoia{
+	color: #555;
+	font-size: 1.5em;
+	font-weight: bold;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.abisua{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	padding: 20px 20px 20px;
+	background: Lavender;
+	border-radius: 6px;
+	color: Lavender;
+	font-style: bold;
+	text-align: center;
+
+}
+
+.klikagarria{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	padding: 20px 20px 20px;
+	background: Lavender;
+	border-radius: 20px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #993333;
+	color: Lavender;
+	font-style: bold;
+	cursor:pointer;
+
+}
+
+#goiburukoa{
+	float: top;
+}
+
+#gaia{
+	float: left;
+	border-radius: 3px;
+	padding:5px;
+	background: #993333;
+
+}
+
+#data{
+	float: right;
+	border-radius: 3px;
+	padding: 5px;
+	background: #993333;
+}
+
+#ordua{
+	float: right;
+	border-radius: 3px;
+	padding: 5px;
+	background: #993333;	
+	margin-right: 5px;
+}
+
+#xehetasunak{
+	padding: 5px;
+	padding-top: 50px;
+	color: #993333;
+	font-style: bold;
+	text-align: justify;
+	margin: 1em;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+#zureAbisuakBotoia{
+	background:#555;
+	color:white;
+}
+
+.gustukoDutBotoia{
+	text-decoration: none;
+	font-style: bold;	
+	padding: 5px;
+	border-radius: 6px; 
+}

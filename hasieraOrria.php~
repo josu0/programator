@@ -1,0 +1,15 @@
+<?php
+	$erabiltzailea=trim($_POST['erabiltzailea']);
+	$pasahitza=trim($_POST['pasahitza']);
+	$erabiltzaileAurkitua=false;
+	
+	if(!($erabLista=simplexml_load_file('datuak.xml')))
+		echo('<p>Errore bat gertatu datu bisita liburua irakurtzean. Barkatu eragozpenak</p>');
+	else{
+		foreach($erabLista->erabiltzailea as $erabiltzaile){
+			if(($erabiltzaile->izena==$erabiltzailea)||($erabiltzaile->emaila==$erabiltzailea)){
+				
+			}
+		}
+	}
+>

@@ -1,0 +1,6 @@
+<?php
+	$erabiltzailea=trim($_POST['erabiltzailea']);
+	$pasahitza=trim($_POST['pasahitza']);
+	
+	$errorea= balidatuPasahitza(
+>

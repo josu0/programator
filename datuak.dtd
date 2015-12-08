@@ -1,0 +1,16 @@
+<!ELEMENT erabiltzaileak (erabiltzailea)*>
+<!ELEMENT erabiltzailea (izena, emaila, pasahitza,abisuak)>
+<!ELEMENT abisuak (abisua)*>
+<!ATTLIST abisuak azkenid ID #REQUIRED>
+<!ELEMENT abisua (hila,eguna,ordua,minutua,gaia,xehetasunak)>
+<!ATTLIST abisua id ID #REQUIRED>
+<!ATTLIST abisua gustukoDut #PCDATA #REQUIRED>
+<!ELEMENT izena (#PCDATA)>
+<!ELEMENT emaila (#PCDATA)>
+<!ELEMENT pasahitza (#PCDATA)>
+<!ELEMENT hila (#PCDATA)>
+<!ELEMENT eguna (#PCDATA)>
+<!ELEMENT ordua (#PCDATA)>
+<!ELEMENT minutua (#PCDATA)>
+<!ELEMENT gaia (#PCDATA)>
+<!ELEMENT xehetasunak (#PCDATA)>

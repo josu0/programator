@@ -1,0 +1,28 @@
+body{
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+	color: OrangeRed;
+	background: LightSlateGray;
+	
+}
+h1{
+	color: Lavender;
+	font-size: 3.5em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px black;
+
+}
+.login{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 20px 20px;
+	width: 310px;
+	background: Lavender;
+	border-radius: 6px;
+}
+
+p { margin: 20px 0 0; }
+
+p.submit{
+	text-align: center;
+}

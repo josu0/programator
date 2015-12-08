@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE erabiltzaileak SYSTEM "datuak.dtd">
+<erabiltzaileak>
+  <erabiltzailea>
+    <izena>josu0</izena>
+    <emaila>josuarruarte@gmail.com</emaila>
+    <pasahitza>josu</pasahitza>
+    <abisuak azkenid="a0"/>
+  </erabiltzailea>
+<erabiltzailea><izena>libe</izena><emaila>libearruarte@gmail.com</emaila><pasahitza>libe</pasahitza><abisuak azkenid="a1"><abisua id="a1" gustukoDut="ez"><hila>2</hila><eguna>2</eguna><ordua>2</ordua><minutua>2</minutua><gaia>2</gaia><xehetasun>2</xehetasun></abisua></abisuak></erabiltzailea><erabiltzailea><izena>imanol</izena><emaila>ansa@gmail.com</emaila><pasahitza>imanol</pasahitza><abisuak azkenid="a0"/></erabiltzailea></erabiltzaileak>

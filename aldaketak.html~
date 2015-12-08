@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Programator: Aldaketak</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <script type="text/javascript" src="funtzioak.js"></script>
+    <link rel="stylesheet" href="estiloa.css" type="text/css" />
+  </head>
+  <body>
+    <input type="button" value="Atzera" onclick="atzeraItzuli()" /><h1>Programator</h1>
+    <div class="aldaketak">
+      <form action="" method="post">
+	<p>Data <input type="date" size="19" name="data" value=""> Ordua <input type="time" size="19" name="ordua" value=""></p>
+	<p>Gaia <input type="text" name="gaia" size="50" value=""></p>	
+	<p>Xehetasunak<br><textarea name="xehetasun" rows="3" cols="55"></textarea></p>	
+	<p><input type="checkbox" name="emaila" value="ez"> email bidez abisatu</p>
+        <p class="submit"><input type="submit" value="ALDAKETAK GORDE" onclick="balidatuAldaketak(this.form);" /></p>
+      </form>
+    </div>
+  </body>
+</html>

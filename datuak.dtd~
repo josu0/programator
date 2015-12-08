@@ -1,0 +1,7 @@
+<!ELEMENT erabiltzaileak (erabiltzailea)*>
+<!ELEMENT erabiltzailea (izena, emaila, pasahitza)>
+<!ATTLIST erabiltzaileak id ID #REQUIRED>
+<!ATTLIST erabiltzailea id ID #REQUIRED>
+<!ELEMENT izena (#PCDATA)>
+<!ELEMENT emaila (#PCDATA)>
+<!ELEMENT pasahitza (#PCDATA)>

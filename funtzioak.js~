@@ -1,0 +1,46 @@
+function balidatuLogin(f)
+{
+	var erabiltzailea = f.erabiltzailea.value;
+	var pasahitza = f.pasahitza.value;
+	
+	var errorea = "";
+	if(erabiltzailea==""){
+		errorea = "\t--> Erabiltzaile bat sartu behar duzu\n\n";
+	}else{
+		//Sartutakoa emaila den begiratzen du
+		if(erabiltzailea.indexOf("@") >= 0){ 
+			//emaila egokia den begiratzen du
+			if(!emailaTratatu(erabiltzailea)){
+				errorea = "\t--> Sartutako emaila okerra da\n\n";
+			}
+		}
+	}
+	if(pasahitza=="")
+		errorea += "\t--> Pasahitza sartu behar duzu\n";
+	
+	if(errorea != "")
+	{
+		alert(errorea);
+		return false;
+	}
+	else
+		//konprobatu pasahitza erabiltzaile horrena dela
+		return true;
+}
+
+function emailaTratatu(emaila)
+{
+	//'@' bakarra dagoela ziurtatu
+	if(emaila.split("@").length != 2)
+		return false;
+	// Ziurtatu '@' karakterea ez dela lehena
+	if(emaila.indexOf("@") == 0)
+		return false;
+	// Ziurtatu '@' karakterearen ondoren '.' karaktereren bat badagoela
+	if(emaila.lastIndexOf(".") < emaila.lastIndexOf("@"))
+		return false;
+	// Ziurtatu azkeneko puntuaren atzetik gutxienez beste 2 karaktere daudela
+	if(emaila.lastIndexOf(".") + 2 > emaila.length - 1)
+		return false;
+	return true;
+}
